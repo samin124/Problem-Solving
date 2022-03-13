@@ -1,1 +1,21 @@
 
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+  long long int n,x,z;
+  cin>>n;
+  while(n--)
+  {
+      cin>>x;
+      if(x==1)
+      {
+          cout<<"1"<<endl;
+      }
+      else
+      {
+          z=pow(2,x);
+          cout<<z-1<<endl;
+      }
+  }
+}
